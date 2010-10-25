@@ -32,7 +32,7 @@ $result = mysql_query($query, $db_server) or die(mysql_error($db_server));
       Add a new note;
     </div>
     <div id="trash">
-      Trascan
+      Trashcan
     </div>
   </div>
   <ul>

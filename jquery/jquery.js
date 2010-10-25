@@ -6,11 +6,16 @@ $(document).ready(function() {
         'opacity': 0.8
     });
     $('#trash').droppable({
-        drop: function(event, ui){
-            $('ui.draggable').remove();
+        tolerance: 'pointer',
+        over: function(ev, ui) {
+                       $(ui.draggable).addClass('trashable');
+                },
+        out: function(ev, ui) {
+                       $(ui.draggable).removeClass('trashable');
+                },
+
+        drop: function(ev, ui){
+            $(ui.draggable).remove();
         }
     });
 });
-
-
-

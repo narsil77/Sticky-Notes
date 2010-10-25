@@ -155,3 +155,7 @@ ul li:hover,ul li:focus{
 ol{text-align:center;}
 ol li{display:inline;padding-right:1em;}
 ol li{color:#fff;}
+
+.trashable{   /* Classe che viene aggiunta alle note sull'evento over trashable e cioè quando vengono messe col mouse sopra il cestino */
+    background: Red;
+}
