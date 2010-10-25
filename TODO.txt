@@ -1,0 +1,41 @@
+Sticky Notes TODO
+
+- In aggiunta di nota il sistema deve provvedere un valore random di pochi gradi per la rotazione.
+
+- Cliccando l'icona di controllo la nota deve girarsi con effetto Accordion e presentare sul retro i controlli e un botton apply
+
+- gestire gli id delle note con la funzione .data() di jQuery
+
+- Considerare il DOM per la gestione di alcuni elementi. Es riferirsi al padre nel dom per avere un puntatore ad un oggetto.
+
+- Funzone crea nota vuota
+
+- il salvataggio onButtonPush con delay 15 secondi e sul ritorno dell'accordion per quanto riguarda i dati (bottone apply)
+
+- controllo versioni con GitHub
+
+- predisporre con jQuery un focus sulla nota che si manifesta con uno zoom della stessa
+
+- sul back della nota icone e controlli per il ridimensionamento / rotazione
+
+*** - Interfaccia coi 2 (per il momento poi magari aggiungerò altre funzionalità) bottoni deve slidare con lo scroll su e giù per lo schermo.
+
+- Drag & Drop sul cestino   (capitolo 7 - 14)
+
+----------------------------------------------
+FASE 2
+
+- in un secondo momento SESSIONI
+
+- ricerca / filtro con note ce appaiono e spariscono in animazione
+
+- Inserire una data di scadenza della nota con colorazione del biglietto che cambia e si evidenzia un giorno prima della scadenza
+
+
+-----------------------------------------------------------------
+Dati database sul sito www.narsil.it per prove
+E' stato attivato un database da 5000 KB, ecco i dati per la connessione:
+
+HOST: sql.narsil.it
+USERID e DBNAME: narsilit66585
+PASSWORD: nars03226
